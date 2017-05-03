@@ -28,7 +28,6 @@ def array2raster(outRasterPath,rasterOrigin,pixelWidth,pixelHeight,dataType,arra
     outRaster.GetRasterBand(1).SetNoDataValue(noDataValue)
     outRaster.GetRasterBand(1).WriteArray(array)
     outRaster.FlushCache()
-	##sara
 
 
  
