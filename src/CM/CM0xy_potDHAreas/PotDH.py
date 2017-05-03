@@ -7,7 +7,7 @@ import gdal, ogr, osr, time
 import numpy as np
 from skimage import morphology, measure
 from skimage.morphology import binary_closing, binary_dilation, binary_erosion, square
-
+##sara1
 
 
 
@@ -28,6 +28,7 @@ def array2raster(outRasterPath,rasterOrigin,pixelWidth,pixelHeight,dataType,arra
     outRaster.GetRasterBand(1).SetNoDataValue(noDataValue)
     outRaster.GetRasterBand(1).WriteArray(array)
     outRaster.FlushCache()
+	##sara
 
 
  
