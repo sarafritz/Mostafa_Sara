@@ -7,8 +7,13 @@ import gdal, ogr, osr, time
 import numpy as np
 from skimage import morphology, measure
 from skimage.morphology import binary_closing, binary_dilation, binary_erosion, square
+<<<<<<< HEAD
 
 # dont make conflict :D
+=======
+##sara1
+
+>>>>>>> origin/feature_Mostafa
 
 
 def array2raster(outRasterPath,rasterOrigin,pixelWidth,pixelHeight,dataType,array,noDataValue):
@@ -28,7 +33,7 @@ def array2raster(outRasterPath,rasterOrigin,pixelWidth,pixelHeight,dataType,arra
     outRaster.GetRasterBand(1).SetNoDataValue(noDataValue)
     outRaster.GetRasterBand(1).WriteArray(array)
     outRaster.FlushCache()
-#another test
+
 
  
 def potDHAreas(DH,g,rasterOrigin,fid,pix_threshold,DH_threshold, minSizeObj=3,minSizeHole=5, conn=2):
