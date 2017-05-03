@@ -26,7 +26,7 @@ def potDHAreas(heat_density_map,pix_threshold,DH_threshold, minSizeObj=3,minSize
     
     
     """
-    
+    # test
     g = heat_density_map*(heat_density_map>pix_threshold)
     DH = (heat_density_map>pix_threshold).astype(bool)
     

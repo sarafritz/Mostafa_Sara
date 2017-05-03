@@ -28,7 +28,7 @@ def array2raster(outRasterPath,rasterOrigin,pixelWidth,pixelHeight,dataType,arra
     outRaster.GetRasterBand(1).SetNoDataValue(noDataValue)
     outRaster.GetRasterBand(1).WriteArray(array)
     outRaster.FlushCache()
-
+#another test
 
  
 def potDHAreas(DH,g,rasterOrigin,fid,pix_threshold,DH_threshold, minSizeObj=3,minSizeHole=5, conn=2):
