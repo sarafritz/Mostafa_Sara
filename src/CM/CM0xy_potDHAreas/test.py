@@ -18,4 +18,5 @@ def test1():
     print(np.amin(num_feature))
 
 if __name__ == "__main__":
-    test1()    
+    test1()  
+#this is a test    
